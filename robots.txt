@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /*
+Allow: /$
+
+Host: medienhaus.udk-berlin.de
+Sitemap: https://medienhaus.udk-berlin.de/sitemap.txt
