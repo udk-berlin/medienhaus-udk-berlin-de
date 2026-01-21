@@ -110,11 +110,22 @@ b {
   font-weight: bold;
 }
 
+.announcement {
+  background-color: hsl(48 100% 90%);
+  border: calc(var(--margin) * 0.1) solid hsl(48 100% 70%);
+  padding: calc(var(--margin) * 0.8);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: 0 0% 8%;
     --color-foreground: 0 0% 100%;
     --color-accent: 205 100% 50%;
     --color-highlight: 244 100% 70%;
+  }
+
+  .announcement {
+    background-color: hsl(48 100% 15%);
+    border-color: hsl(48 100% 30%);
   }
 }
